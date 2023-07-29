@@ -1,10 +1,9 @@
-// How to swap 2 no using 3rd variable Program in java
+// How to swap 2 no without using 3rd variable Program in java
 
 import java.util.Scanner;
 
-public class Q6 {
+public class Q7 {
     public static void main(String[] args) {
-
         Scanner scan = new Scanner(System.in);
 
         int a,b;
@@ -17,12 +16,10 @@ public class Q6 {
 
         System.out.print("Number Before Swapping : \na : "+a+"\nb : "+b);
 
-        int temp;
-        temp =a ;
-        a = b;
-        b = temp;
+       a = a + b;
+       b = a-b;
+       a = a-b;
 
         System.out.print("\nNumber After Swapping : \na : "+a+"\nb : "+b);
-        
-    }   
+    }
 }

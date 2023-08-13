@@ -3,7 +3,7 @@ package Methods;
 public class IsPrime {
     public static void main(String[] args) {
 
-        System.out.println(isprime(18));
+        System.out.println(isprime(17));
         
     }
 

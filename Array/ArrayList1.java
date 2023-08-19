@@ -14,9 +14,11 @@ public class ArrayList1 {
         System.out.println(arr.size());
 
        
-        arr.clear();  // REMOVE ALL ELEMENTS
+        //arr.clear();  // REMOVE ALL ELEMENTS
 
-        System.out.println(arr);
+        arr.set(2, 1000);
+
+        System.out.println(arr.get(3));
 
        
 

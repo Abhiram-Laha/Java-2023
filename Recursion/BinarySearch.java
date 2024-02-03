@@ -6,9 +6,12 @@ public class BinarySearch {
         int s=0;
         int e=arr.length - 1;
 
-        System.out.println(search(arr,9,s,e));
+        System.out.println(search(arr,12,s,e));
+
+
         
     }
+
 
     public static int search(int[] nums, int target,int start,int end) {
 
